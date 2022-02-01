@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (Win)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/wordl.exe",
+            "args": ["salet",
+                     "${workspaceFolder}/wordl/data/potential-solutions.txt",
+                     "${workspaceFolder}/wordl/data/permitted-guesses.txt",
+                     "6",
+                     "200",
+                     "5"],
+            "symbolSearchPath": "${workspaceFolder}/bin",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+        }
+    ]
+}

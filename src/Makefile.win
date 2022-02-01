@@ -1,0 +1,8 @@
+
+SRC = word.cpp fileUtils.cpp wordl.cpp
+
+build:
+    clang++ --std=c++17 -O3 -Wall -pedantic $(SRC) -o ../bin/wordl.exe
+
+build-db:
+    clang++ --std=c++17 -g -O0 -Wall -pedantic $(SRC) -o ../bin/wordl.exe

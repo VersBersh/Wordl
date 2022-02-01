@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "Windows",
+        "intelliSenseMode": "windows-clang-x64",
+        "defines": ["DEBUG"],
+        "forcedInclude": [],
+        "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+      }
+    ],
+    "version": 4
+}
